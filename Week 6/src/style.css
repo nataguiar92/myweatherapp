@@ -1,0 +1,55 @@
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  color: rgb(51, 51, 51, 0.8);
+  line-height: 0.5px;
+  font-weight: 300;
+}
+
+.weather-icons {
+  width: 50px;
+}
+
+.days {
+  text-align: right;
+  position: relative;
+  top: 11px;
+}
+
+.temperature {
+  text-align: center;
+  position: relative;
+  top: 11px;
+}
+
+.icon-now {
+  width: 150px;
+}
+
+#weather-now {
+  font-size: 20px;
+}
+
+.temp-now {
+  font-size: 30px;
+}
+
+.container {
+  margin: 10px auto;
+  width: 600px;
+}
+
+.bottom-link {
+  margin: 20px;
+}

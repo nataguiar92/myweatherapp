@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather App - Wireframe</title>
+    <script src="https://kit.fontawesome.com/83897ab6fc.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h3 class="card-header app-title">My Weather App</h3>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6">
+                        <h1 id="current-city">Dublin</h1>
+                    </div>
+                    <div class="col-1">
+                        <button>📍</button>
+                    </div>
+                    <div class="col-5">
+                        <form id="search-form">
+                            <input type="search" placeholder="Search a city..." id="city-input" />
+                        </form>
+                    </div>
+
+
+                </div>
+
+
+                <div class="row">
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <h3 id="weather-now">Mostly Sunny</h3>
+                                <span class="temp-now" id="temp-celsius"> 20</span>
+                                <span class+"units">
+                                    <a href="#" id="celsius">°C</a>
+                                </span>
+                            </div>
+                            <div class="col-12">
+                                <image src="images/sunny.jpg" class="icon-now" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="days">Mon</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="days">Tue</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="days">Wed</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="days">Thurs</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="days">Fri</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <div class="row">
+                            <div class="col-12">
+                                <image src="images/sunny.jpg" class="weather-icons" />
+                            </div>
+                            <div class="col-12">
+                                <image src="images/sunny.jpg" class="weather-icons" />
+                            </div>
+                            <div class="col-12">
+                                <image src="images/cloudy.jpg" class="weather-icons" />
+                            </div>
+                            <div class="col-12">
+                                <image src="images/rainy.jpg" class="weather-icons" />
+                            </div>
+                            <div class="col-12">
+                                <image src="images/cloudy.jpg" class="weather-icons" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="temperature">18°C 29°C</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="temperature">13°C 25°C</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="temperature">12°C 21°C</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="temperature">12°C 18°C</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="temperature">14°C 21°C</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-link"><a href="https://github.com/nataguiar92/myweatherapp">Open Source Code</a> by Nat</div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
